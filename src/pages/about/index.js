@@ -8,7 +8,8 @@ function AboutMe() {
      
             <div className='container'>
                 <div className='form'>
-                    <h2>Hallo</h2>
+                <h2>Hallo</h2>
+                <p>Nama saya GitHub Copilot</p>
                 </div>
             </div>
           
