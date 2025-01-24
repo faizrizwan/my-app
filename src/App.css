@@ -1,7 +1,73 @@
+/* hbssj */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background{
+    background-image: url('/src//assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    filter: blur(px);
+
+   
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+ 
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Membuat dua kolom dengan lebar yang sama */
+  gap: 5px; /* Jarak antar elemen grid */
+  padding: 20px;
+}
+.grid-project {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Membuat dua kolom dengan lebar yang sama */
+  gap: 5px; /* Jarak antar elemen grid */
+  padding: 20px;
+  
+}
+
+h1 {
+  font-size: 5em;
+  color: aliceblue;
+  font-family: 'Courier New', Courier, monospace;
+  text-align:center;
+  padding-top: 30px;
+  text-shadow: 5px 5px 15px rgba(0, 233, 233, 0.993);
+
+        
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin: 40px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  
+  
+
+}
+
+h3 {
+text-align: center;
+}
+
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh;
-    background-color: #d6a5a5;
+  background-color: #d8baba;
+  margin: 35%;
+  padding: 20px;
+}
+.form{
+  background-color: ;
 }

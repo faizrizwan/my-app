@@ -1,17 +1,20 @@
 import "./App.css";
 import React from "react";
 import Header from "./pages/header";
-import AboutMe from "./pages/about";
 import Projects from "./pages/project";
 import Contact from "./pages/contact";
+import Skills from "./pages/skill";
+import About from "./pages/about";
+
 
 function App() {
     return (
         <div className="App">
-            <Header />
-            <AboutMe />
-            <Projects />
-            <Contact />
+            {/* <Header /> */}
+            <About />
+            {/* <Skills/> */}
+            {/* <Projects /> */}
+            {/* <Contact /> */}
         </div>
     );
 }

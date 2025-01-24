@@ -1,32 +1,28 @@
 import React from 'react';
-import './style.css';
 
-function Contact() {
-    return (
-        <div className='container'>
-            <div className='form'>
-                <form className='contact-form'>
-                <label>
-                    Name:
-                    <input type="text" name="name" />
-                </label>
-                <br />
-                <label>
-                    Email:
-                    <input type="email" name="email" />
-                </label>
-                <br />
-                <label>
-                    Message:
-                    <textarea name="message"></textarea>
-                </label>
-                <br />
-                <button type="submit">Send</button>
-                </form>
-            </div>
-        </div>
-    );
-
-};
+const Contact = () => {
+  return (
+    <div className='container'>
+      <form className='form'>
+        <label className='form-label'>
+          Name:
+          <input type="text" name="name" className='form-input' />
+        </label>
+        <br />
+        <label className='form-label'>
+          Email:
+          <input type="email" name="email" className='form-input' />
+        </label>
+        <br />
+        <label className='form-label'>
+          Message:
+          <textarea name="message" className='form-textarea'></textarea>
+        </label>
+        <br />
+        <button type="submit" className='form-button'>Send</button>
+      </form>
+    </div>
+  );
+}
 
 export default Contact;
