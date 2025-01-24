@@ -6,12 +6,14 @@
 }
 .background{
     background-image: url('/src//assets/background.jpg');
+    /* background-color: darkgray; */
+    width: 100%;
+    height: 100vh;
     background-size: cover;
-    background-position: center;
-    height: auto;
-    filter: blur(px);
+    background-position:center center;
+    background-repeat: no-repeat;
 
-   
+    
 }
 
 header {
@@ -33,6 +35,7 @@ header {
   padding: 20px;
   
 }
+
 
 h1 {
   font-size: 5em;
@@ -68,6 +71,22 @@ text-align: center;
   margin: 35%;
   padding: 20px;
 }
-.form{
-  background-color: ;
+
+@media (max-width: 768px) {
+  grid-container {
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom pada layar tablet */
+  }
+  background{
+    background-image: url('/src//assets/background.jpg');
+
+
+  }
+}
+@media (max-width: 480px) {
+  grid-container {
+    grid-template-columns: 1fr; /* 1 kolom pada layar ponsel */
+  }
+  background{
+    background-image: url('/src//assets/background.jpg');
+}
 }
