@@ -4,6 +4,7 @@ const Projects = () => {
   return (
     <section id="projects">
       <div>
+
         <h2>My Projects</h2>
         <div className='grid-project'>
           <div className='card' >
