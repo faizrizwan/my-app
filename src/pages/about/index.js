@@ -5,6 +5,7 @@ import Projects from '../project';
 import Header from '../header';
 import Contact from '../contact';
 
+
 const About = () => {
   const handleDownload = () => {
     const pdfPath = "/logo512.png"; // Path inside the public folder
@@ -24,16 +25,18 @@ const About = () => {
 
         </h1>
         <div className='profile-section'>
-          <div><img
+          <div style={{justifyContent:'center'}}>
+            <img
             src={profilePic}
             alt='Profile'
             className='profil-image' />
           </div>
-
-          <h2 className='text'>
+          <div>
+            <h2 className='text'>
             Saya adalah seorang profesional yang berdedikasi dalam pengembangan perangkat lunak / desain grafis / pemasaran digital]. Dengan pengalaman dalam [sebutkan pengalaman utama], saya memiliki keterampilan dalam [keahlian utama, misalnya: React.js, Node.js, UI/UX design].
             Saya memiliki semangat belajar tinggi, mampu bekerja secara tim maupun individu, serta selalu mencari solusi inovatif dalam setiap tantangan yang dihadapi. Saya percaya bahwa kerja keras, konsistensi, dan kreativitas adalah kunci keberhasilan dalam dunia profesional.
-          </h2>
+          </h2></div>
+          
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <button onClick={handleDownload} style={{ padding: '10px', }}>Download CV</button>

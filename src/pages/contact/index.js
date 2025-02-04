@@ -21,22 +21,22 @@ const Contact = () => {
 
           <div className="contact-item">
             <FaMapMarkerAlt className="icon" />
-            <p>123 Anywhere St., Any City, ST 12345</p>
+            <p>Salawu 46471, Tasikmalaya</p>
           </div>
 
           <div className="contact-item">
             <FaPhone className="icon" />
-            <p>123-456-7890</p>
+            <p>089505409606</p>
           </div>
 
           <div className="contact-item">
             <FaEnvelope className="icon" />
-            <p>hello@reallygreatsite.com</p>
+            <p>faizrizwan69@gmail.com</p>
           </div>
 
           <div className="contact-item">
             <FaGlobe className="icon" />
-            <p>www.reallygreatsite.com</p>
+            <p>www.google.com.com</p>
           </div>
 
           <div style={{ cursor: "pointer", }} onClick={handleOpenWhatsApp} className="chat-icon">💬</div>
