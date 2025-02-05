@@ -20,7 +20,7 @@ const About = () => {
     <div >
       <Header />
       <div className='grid-container'>
-        <h1>hi,I'm Faiz</h1>
+        <h1>Hallo saya Faiz</h1>
         <div className='profile-section'>
           <div style={{justifyContent:'center'}}>
             <img

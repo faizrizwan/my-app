@@ -67,14 +67,17 @@ h1 {
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
 h2 {
-  font-size: 2rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.5;
   color: #ffffff;
-  margin-bottom: 20px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.993);
   padding: 40px;
+  line-height: 1.6;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.993);
 
 
 
