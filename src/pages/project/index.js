@@ -13,7 +13,7 @@ const Projects = () => {
         
         <div className='grid-project'>
           <div className='grid-container'>
-            <video style={{display: 'flex' , borderRadius: 10}} width="320" height="240" controls>
+            <video style={{display: 'flex' , borderRadius: 10, alignContent:'center'}} width="320" height="240" controls>
               <source src="movie.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
