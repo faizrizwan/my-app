@@ -23,7 +23,7 @@ header {
   font-size: 25px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  background-color: rgb(35, 33, 33);
+ 
 
 }
 
@@ -45,6 +45,7 @@ header {
   gap: 10px;
   /* Jarak antar elemen grid */
   padding: 20px;
+  /* display: flex; */
 
 }
 
@@ -67,10 +68,10 @@ h2 {
   line-height: 1.6;
   color: #ffffff;
   margin-bottom: 20px;
-  margin: 40px;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.993);
+  padding: 2px;
 
 
 

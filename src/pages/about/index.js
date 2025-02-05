@@ -21,9 +21,7 @@ const About = () => {
     <div >
       <Header />
       <div className='grid-container'>
-        <h1>hi,I'm Faiz
-
-        </h1>
+        <h1>hi,I'm Faiz</h1>
         <div className='profile-section'>
           <div style={{justifyContent:'center'}}>
             <img
@@ -33,14 +31,16 @@ const About = () => {
           </div>
           <div>
             <h2 className='text'>
-            Saya seorang profesional yang berdedikasi dalam pengembangan perangkat lunak, desain grafis dan pemasaran digital.</h2></div>
+              Saya seorang profesional yang berdedikasi dalam pengembangan perangkat lunak, desain grafis dan pemasaran digital. selama perkuliahan
+              mempelajari cukup banyak tentang basic perkenalan dengan IT, Saya memiliki pengetahuan atau kemampuan salah satunya di bidang multimedia.
+            </h2>
+          </div>
           
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <button onClick={handleDownload} style={{ padding: '10px', }}>Download CV</button>
         </div>
       </div>
-      {/* <Projects /> */}
       s    </div>
   )
 }
