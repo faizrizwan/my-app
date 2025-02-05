@@ -1,12 +1,10 @@
 import "./App.css";
 import React from "react";
-import Header from "./pages/header";
 import Projects from "./pages/project";
 import Contact from "./pages/contact";
-import Skills from "./pages/skill";
 import About from "./pages/about";
-import Project1 from "./pages/project/project1";
 import IconContact from "./pages/ContactIcon";
+import Footer from "./pages/footer";
 
 
 function App() {
@@ -22,12 +20,10 @@ function App() {
                 }}>
                     <IconContact />
             </div>
-                {/* <Header /> */}
                 <About />
-                {/* <Skills/> */}
                 <Projects />
                 <Contact />
-                {/* <Project1 /> */}
+                <Footer/>
             </div>
 
         </div>

@@ -35,6 +35,8 @@ header {
   /* Jarak antar elemen grid */
   padding: 20px;
   /* display: flex; */
+  background-color: rgb(5, 27, 39);
+  border-radius: 20px;
 }
 
 .grid-project {
@@ -45,6 +47,7 @@ header {
   gap: 10px;
   /* Jarak antar elemen grid */
   padding: 20px;
+  
   /* display: flex; */
 
 }
@@ -71,7 +74,7 @@ h2 {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.993);
-  padding: 2px;
+  padding: 40px;
 
 
 

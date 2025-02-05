@@ -1,9 +1,8 @@
 import React from 'react';
 import profilePic from '../../assets/profile.png'; // Adjust the path as necessary
 import './style.css';
-import Projects from '../project';
 import Header from '../header';
-import Contact from '../contact';
+
 
 
 const About = () => {
@@ -27,21 +26,21 @@ const About = () => {
             <img
             src={profilePic}
             alt='Profile'
-            className='profil-image' />
+              className='profil-image' />
           </div>
-          <div>
-            <h2 className='text'>
+          <h2 className='text'>
               Saya seorang profesional yang berdedikasi dalam pengembangan perangkat lunak, desain grafis dan pemasaran digital. selama perkuliahan
               mempelajari cukup banyak tentang basic perkenalan dengan IT, Saya memiliki pengetahuan atau kemampuan salah satunya di bidang multimedia.
-            </h2>
-          </div>
-          
+          </h2>
         </div>
-        <div style={{ display: 'flex', justifyContent: 'center' }}>
+         <div style={{ display: 'flex', justifyContent: 'center' }}>
           <button onClick={handleDownload} style={{ padding: '10px', }}>Download CV</button>
         </div>
       </div>
-      s    </div>
+      
+
+  
+  </div>
   )
 }
 export default About;

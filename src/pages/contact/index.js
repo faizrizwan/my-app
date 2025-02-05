@@ -1,7 +1,6 @@
 import React from 'react';
 import './contact.css'
 import { FaMapMarkerAlt, FaPhone, FaEnvelope, FaGlobe } from "react-icons/fa";
-import IconContact from '../ContactIcon';
 
 const Contact = () => {
   const handleOpenWhatsApp = () => {
