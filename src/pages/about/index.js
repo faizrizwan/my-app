@@ -33,9 +33,7 @@ const About = () => {
           </div>
           <div>
             <h2 className='text'>
-            Saya adalah seorang profesional yang berdedikasi dalam pengembangan perangkat lunak / desain grafis / pemasaran digital]. Dengan pengalaman dalam [sebutkan pengalaman utama], saya memiliki keterampilan dalam [keahlian utama, misalnya: React.js, Node.js, UI/UX design].
-            Saya memiliki semangat belajar tinggi, mampu bekerja secara tim maupun individu, serta selalu mencari solusi inovatif dalam setiap tantangan yang dihadapi. Saya percaya bahwa kerja keras, konsistensi, dan kreativitas adalah kunci keberhasilan dalam dunia profesional.
-          </h2></div>
+            Saya seorang profesional yang berdedikasi dalam pengembangan perangkat lunak, desain grafis dan pemasaran digital.</h2></div>
           
         </div>
         <div style={{ display: 'flex', justifyContent: 'center' }}>

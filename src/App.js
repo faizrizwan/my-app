@@ -21,7 +21,7 @@ function App() {
                     bottom: '35%'
                 }}>
                     <IconContact />
-                </div>
+            </div>
                 {/* <Header /> */}
                 <About />
                 {/* <Skills/> */}
