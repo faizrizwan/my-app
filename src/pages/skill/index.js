@@ -1,18 +1,27 @@
 import React from 'react';
+import { PiMicrosoftExcelLogo, PiMicrosoftPowerpointLogo, PiMicrosoftWordLogo } from 'react-icons/pi';
+import { SiAdobepremierepro, SiCanva, SiCoreldraw } from 'react-icons/si';
+
+
 
 const Skills = () => {
   return (
-    <section id="skills">
-      <div className="container">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML, CSS, JavaScript</li>
-          <li>React, Redux</li>
-          <li>Git & GitHub</li>
-          <li>Responsive Design</li>
-        </ul>
-      </div>
-    </section>
+    
+    <div>
+      <p style={{marginBottom:0 ,fontSize:'25px'}} >SKILLS</p >
+      <div style={{ fontSize: 50, gap: '20px', margin: '25px', justifyContent: 'center', display: 'flex', padding: '20px', borderRadius: '10px',marginTop:'0' }}>
+          <SiCoreldraw style={{  color: 'white' }} />
+          <SiAdobepremierepro style={{ color:'white'}} />
+          <SiCanva style={{color:'white' }} />
+          <PiMicrosoftPowerpointLogo style={{ color:'white'}} />
+          <PiMicrosoftWordLogo style={{ color:'white'}} />
+          <PiMicrosoftExcelLogo style={{ color: 'white' }} />
+          
+        </div>
+     </div>
+      
+   
+   
   );
 }
 

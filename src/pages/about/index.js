@@ -1,47 +1,49 @@
-import React from 'react';
-import profilePic from '../../assets/profile.png'; // Adjust the path as necessary
-import './style.css';
-import Header from '../header';
+import React from "react";
+import ProfilePic from "../../assets/profile.png"; // Adjust the path as necessary
 
 
+function About() {
+    return (
+        <section id="about">
+      <p style={{marginBottom:0 ,fontSize:'25px'}} >TENTANG SAYA</p >
+            
+            <div className="grid-container">
+                <div className="grid-project">
+                    <div>
+                        <img
+                            src={ProfilePic}
+                            alt="Faiz"
+                            className="profil-image"
+                        />
+                    </div>
+                    <div>
+                         <div style={{ display: 'flex', justifyContent: 'center'}}>
+        
+                            <p>
+                                Saya seorang profesional yang berdedikasi dalam pengembangan Dunia IT.
+                                selama perkuliahan mempelajari cukup banyak tentang basic perkenalan dengan IT,
+                                <p>saya juga memiliki pengalaman dalam membuat website sederhana menggunakan HTML, CSS, dan Javascript dan masih terus di kembangkan .</p> 
+                                selain itu Saya juga memiliki kemampuan dalam membuat video dokumentasi, video tutorial. dan juga membuat desain grafis, seperti logo, banner, dan poster.
 
-const About = () => {
-  const handleDownload = () => {
-    const pdfPath = "/logo512.png"; // Path inside the public folder
-    const link = document.createElement("a");
-    link.href = pdfPath;
-    link.download = "logo512.png"; // Set the downloaded file name
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    // console.log(link)
-  };
-  return (
-    <div >
-      <Header />
-      <div className='grid-container'>
-        <h1>Hallo saya Faiz</h1>
-        <div className='profile-section'>
-          <div style={{justifyContent:'center'}}>
-            <img
-            src={profilePic}
-            alt='Profile'
-              className='profil-image' />
-          </div>
-          <h2 className='text'>
-              Saya seorang profesional yang berdedikasi dalam pengembangan perangkat lunak, desain grafis dan pemasaran digital. selama perkuliahan
-              mempelajari cukup banyak tentang basic perkenalan dengan IT, Saya memiliki pengetahuan atau kemampuan salah satunya di bidang multimedia.
-          </h2>
-        </div>
-         <div style={{ display: 'flex', justifyContent: 'center' }}>
-          <button onClick={handleDownload} style={{ padding: '10px', }}>Download CV</button>
-        </div>
-      </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Pengalaman</h3>
+                                     <p>Konten Masih Dalam Tahap Pengembangan </p>
+
+                    </div>
+                    <div>
+                        <h3>Pendidikan</h3>
+                                     <p>Konten Masih Dalam Tahap Pengembangan </p>
+
+                    </div>
+                </div>
+
+            </div>
       
-
-  
-  </div>
-  )
+        </section>
+    );
 }
+    
 export default About;
-

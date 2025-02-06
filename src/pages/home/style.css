@@ -2,23 +2,11 @@
 
 
 
-.profil-image {
 
+
+/* .profile-section {
   display: flex;
-  width: 200px;
-  text-align: center;
-  opacity: 0.9;
-  border: 4px solid #4e4949;
-  border-radius: 10px;
-  margin: 80px;
-  
-
-
-}
-
-.profile-section {
-  display: flex;
-}
+} */
 
 
 /* Responsive for mobile devices (max-width: 768px) */

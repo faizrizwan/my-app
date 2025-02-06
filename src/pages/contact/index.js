@@ -12,9 +12,10 @@ const Contact = () => {
   };
   return (
     <section id="contact">
+            <p style={{marginBottom:0 ,fontSize:'25px'}} >CONTACT</p >
+
 
       <div className="contact-container">
-
         <div className="contact-card">
           <p className="contact-title">Contact Us</p>
 

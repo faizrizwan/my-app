@@ -1,0 +1,30 @@
+.grid-container {
+  /* display: grid; */
+  grid-template-columns: repeat(2, 1fr);
+  /* Membuat dua kolom dengan lebar yang sama */
+  gap: 5px;
+  /* Jarak antar elemen grid */
+  padding: 20px;
+  /* display: flex; */
+  background-color: #051b27;
+  border-radius: 20px;
+}
+
+.grid-project {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Membuat dua kolom dengan lebar yang sama */
+  gap: 10px;
+  /* Jarak antar elemen grid */
+  padding: 20px;
+  
+  /* display: flex; */
+
+}
+
+.conten{
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #051b27;
+}

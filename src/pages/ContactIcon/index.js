@@ -17,13 +17,13 @@ export default function IconContact() {
                 </a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.instagram.com/rizwanfaiz_/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram className="icon instagram" />
 
                 </a>
             </li>
             <li style={{ borderBottomRightRadius: '10px' }}>
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/faizrizwan?tab=repositories" target="_blank" rel="noopener noreferrer">
                     <FaGithub className="icon github" />
 
                 </a>

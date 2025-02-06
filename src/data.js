@@ -1,23 +1,17 @@
-import "./assets/foto.png"
-
-const ProjectsData = [
-    {
-        id: 1,
-        vid : "/src/assets/foto.png" ,
-        title: "Video wedding",
-        description: "A personal vide weeding .",
-       
-    },
-    {
-        id: 2,
-        title: "E-commerce Website",
-        description: "An e-commerce website for selling products online.",
-        technologies: ["React", "Node.js", "MongoDB"],
-        link: "https://example.com/ecommerce"
+const videoData = [
+  {
+    id: 1,
+    title: "Wedding Alfian & Merita",
+    description: "Saya Membuat video ini untuk memperingati pernikahan Alfian & Merita, Dengan video sinematik, cerita pernikahan bisa dibawakan lebih dari sekadar rangkaian kejadian. Dapat dikemas dalam bentuk narasi visual yang menggugah emosi penonton, dengan alur yang memuat kebahagiaan, cinta, dan makna mendalam dari pernikahan.",
+    videoUrl: "https://www.youtube.com/embed/Cebb1HuG3Rg?si=PSwfOLlxHR2PsYiw", // Ganti dengan URL video Anda
+    Tools: "Saya menggunakan software Adobe Premiere Pro",
+    category: "cinematic",
     },
     
 ];
 
-export default ProjectsData;
+export default videoData;
+
+
 
 
