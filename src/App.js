@@ -15,7 +15,7 @@ function App() {
         <div className="App">
             <div className='background'>
                 
-               {/* <div style={{
+               <div style={{
                     position: 'fixed',
                     left: 0,
                     zIndex: 1,
@@ -23,13 +23,12 @@ function App() {
                     bottom: '35%'
                 }}>
                     <IconContact />
-                </div> */}
+                </div>
                 <Header/>
                 <Home />
                 <About />
                 <Skills />
                 <NavTabs/>
-                
                 <Contact />
                 <Footer/>
                 
