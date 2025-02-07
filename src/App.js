@@ -7,7 +7,7 @@ import Header from "./pages/header";
 import Skills from "./pages/skill";
 import Home from "./pages/home";
 import About from "./pages/about";
-import NavTabs from "./pages/Nav";
+import NavTabs from "./pages/navtabs";
 
 
 function App() {

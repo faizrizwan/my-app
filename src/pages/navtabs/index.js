@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { BiImage, BiVideoRecording } from 'react-icons/bi';
 import VidProjects from '../project/videoprojects';
 import FotoProjects from '../project/fotoProject';
-import { FaBook } from 'react-icons/fa6';
+import { FaBook } from 'react-icons/fa';
 
 const NavTabs = () => {
     const [activeTab, setActiveTab] = useState(0);
