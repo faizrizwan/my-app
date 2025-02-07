@@ -1,0 +1,48 @@
+.education {
+  padding: 2rem;
+  background-color: #051b27;
+  border-radius: 20px;
+}
+
+.education h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.education-item {
+padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #051b27;
+  border-radius: 20px;
+}
+
+.institution-logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 1rem;
+  margin-left: 90px;
+}
+
+.education-details h3 {
+  font-size: 1.25rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.education-details p {
+  margin: 0.5rem 0;
+  color: #ffffff;
+  
+}
+
+.education-details strong {
+}

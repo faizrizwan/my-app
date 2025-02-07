@@ -1,0 +1,24 @@
+
+
+.video{
+  width: 350px;
+  height: 350px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.image {
+  object-fit: cover;
+  width: 250px;
+  height: 'auto';
+  opacity: 0.9;
+  /* border: 2px solid #ffffff; */
+  border-radius: 10px;
+  justify-content: center;
+  margin: 50px;
+  margin-top: 0px;
+ 
+}

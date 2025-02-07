@@ -1,5 +1,7 @@
 import React from "react";
 import ProfilePic from "../../assets/profile.png"; // Adjust the path as necessary
+import Experience from "../experience";
+import Education from "../education";
 
 
 function About() {
@@ -29,13 +31,8 @@ function About() {
                         </div>
                     </div>
                     <div>
-                        <h3>Pengalaman</h3>
-                                     <p>Konten Masih Dalam Tahap Pengembangan </p>
-
-                    </div>
-                    <div>
-                        <h3>Pendidikan</h3>
-                                     <p>Konten Masih Dalam Tahap Pengembangan </p>
+                        <h3 style={{marginBottom:'0px'}}>Pendidikan</h3>
+                        <Education/>
 
                     </div>
                 </div>

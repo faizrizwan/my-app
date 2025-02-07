@@ -1,6 +1,5 @@
 import "./App.css";
 import React from "react";
-import Projects from "./pages/project/videoprojects";
 import Contact from "./pages/contact";
 import IconContact from "./pages/ContactIcon";
 import Footer from "./pages/footer";
@@ -8,7 +7,7 @@ import Header from "./pages/header";
 import Skills from "./pages/skill";
 import Home from "./pages/home";
 import About from "./pages/about";
-import NavTabs from "./pages/nav";
+import NavTabs from "./pages/Nav";
 
 
 function App() {
@@ -29,8 +28,8 @@ function App() {
                 <Home />
                 <About />
                 <Skills />
-                <NavTabs />
-                {/* <Projects /> */}
+                <NavTabs/>
+                
                 <Contact />
                 <Footer/>
                 

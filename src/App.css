@@ -17,15 +17,6 @@
 
 }
 
-header {
-  text-align: center;
-  padding: 20px;
-  font-size: 25px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
- 
-
-}
 
 .profil-image {
 
@@ -33,9 +24,9 @@ header {
   opacity: 0.9;
   border: 3px solid #ffffff;
   border-radius: 10px;
-  margin-left: 90px;
+  margin-left: 105px;
   margin-top: 0px;
-  
+
 
 
 }
@@ -43,23 +34,35 @@ header {
   /* display: grid; */
   grid-template-columns: repeat(2, 1fr);
   /* Membuat dua kolom dengan lebar yang sama */
-  gap: 5px;
   /* Jarak antar elemen grid */
-  padding: 20px;
+  
+  
   /* display: flex; */
   background-color: #051b27;
   border-radius: 20px;
 }
 
 .grid-project {
+  
+  margin: 35px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* Membuat dua kolom dengan lebar yang sama */
   gap: 10px;
+
+  /* Membuat dua kolom dengan lebar yang sama */
   /* Jarak antar elemen grid */
-  padding: 20px;
+ 
   
   /* display: flex; */
+
+}
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+ 
 
 }
 
@@ -190,11 +193,11 @@ h3 {
   font-weight: bold;
 }
 
-.tab-content {
+/* .tab-content {
   padding: 20px;
   border-top: 1px solid #ddd;
   background-color: #051b27;
-  border-radius: 0 0 10px 10px;}
+  border-radius: 0 0 10px 10px;} */
 
 
 

@@ -12,31 +12,24 @@ const Contact = () => {
   };
   return (
     <section id="contact">
-            <p style={{marginBottom:0 ,fontSize:'25px'}} >CONTACT</p >
 
 
       <div className="contact-container">
         <div className="contact-card">
           <p className="contact-title">Contact Us</p>
-
-          <div className="contact-item">
-            <FaMapMarkerAlt className="icon" />
-            <p>Salawu 46471, Tasikmalaya</p>
-          </div>
-
           <div className="contact-item">
             <FaPhone className="icon" />
-            <p>089505409606</p>
+            <p style={{fontSize:'15px'}}>089505409606</p>
           </div>
 
           <div className="contact-item">
             <FaEnvelope className="icon" />
-            <p>faizrizwan69@gmail.com</p>
+            <p style={{fontSize:'10px'}}>faizrizwan69@gmail.com</p>
           </div>
 
           <div className="contact-item">
             <FaGlobe className="icon" />
-            <p>www.google.com.com</p>
+            <p style={{fontSize:'15px'}}>www.google.com</p>
           </div>
 
           <div style={{ cursor: "pointer", }} onClick={handleOpenWhatsApp} className="chat-icon">💬</div>
